@@ -35,6 +35,6 @@ for task in task_list:
 
 sys.stdout.write('\n\nTotal time: ' + str(total_time))
 if len(task_list) == finished_tasks:
-    sys.stdout.write('\nAll task`re finished.')
+    sys.stdout.write('\nAll task(s) finished.')
 else:
     sys.stdout.write('\n' + str(len(task_list) - finished_tasks) + ' task(s) still in process.')
